@@ -7,7 +7,7 @@ getgenv().Config = {
         Font = 'ProggyClean',
         Color = Color3.fromRGB(255, 255, 255),
         Filled = {
-            Enable = false,
+            Enable = true,
             Gradient = {
                 Enable = true,
                 Color = {
@@ -525,4 +525,5 @@ connections.main.RenderStepped = game:GetService("RunService").Heartbeat:Connect
         end
     end
 end) 
+
 
